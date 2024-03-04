@@ -1,0 +1,101 @@
+.container{
+    background-color: #000000;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+.grp46{
+    padding-left: 298px;
+    padding-top: 44px;
+}
+.moptro{
+    background-color: #000000;
+    padding-bottom: 24px;
+    padding-left: 30px;
+}
+
+.info input{
+    width: 328px;
+    height: 40px;
+    font-family: Source Sans Pro, Bold;
+    font-size: 18px;
+    color: #FFFFFFB3;
+    background: #1A2C2C99 0% 0% no-repeat padding-box;
+    mix-blend-mode: normal;
+    opacity: 1;
+    border-radius: 16px;
+    text-align: center;
+}
+.day-data{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: left;
+    text-align: left;
+    padding-left: 32px;
+    padding-right: 32px;
+    padding-top: 12px;
+    padding-bottom: 16px;
+}
+.day-name h1{
+    font-size: 16px;
+    font-family: Mulish, Regular;
+    color: white;
+    max-width: fit-content;
+    
+}
+.progress-data {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%; 
+}
+.progress-line {
+    height: 11px;
+    max-width: 80%;
+    background: #36A54680 0% 0% no-repeat padding-box;
+    mix-blend-mode: normal;
+    border: 1px solid #36A546;
+    border-radius: 9px;
+}
+.perc{
+
+    color: #36A54680;
+}
+.bottom-nav{
+    display: flex;
+    flex-direction: row;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    z-index: 4;
+    height: 60px;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.home-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-grow: 1;
+    height: 60px;
+    background: #38383880 0% 0% no-repeat padding-box;
+    mix-blend-mode: normal;
+    border: 1px solid #000000;
+    opacity: 1;
+    padding: 0;
+
+}
+.user{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-grow: 1;
+    height: 60px;
+    background: #38383880 0% 0% no-repeat padding-box;
+    mix-blend-mode: normal;
+    border: 1px solid #000000;
+    opacity: 1;
+    padding: 0;
+}

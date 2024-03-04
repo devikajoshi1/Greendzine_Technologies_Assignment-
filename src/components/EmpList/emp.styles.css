@@ -1,0 +1,114 @@
+.container{
+    background-color: #000000;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+.grp46{
+    padding-left: 298px;
+    padding-top: 44px;
+}
+.moptro{
+    background-color: #000000;
+    padding-bottom: 24px;
+    padding-left: 30px;
+}
+.info{
+    display: flex;
+    flex-direction: row; 
+    padding-left: 32px;
+    padding-right: 32px;
+    align-items: center;
+    gap: 12px;
+}
+.info input{
+    display: flex;
+    width: 180px;
+    height: 60px;
+    font-family: Source Sans Pro, Bold;
+    font-size: 18px;
+    color: #FFFFFFB3;
+    background: #1A2C2C99 0% 0% no-repeat padding-box;
+    mix-blend-mode: normal;
+    opacity: 1;
+    border-radius: 16px;
+    text-align: center;
+} 
+.search-icon TextField{
+    display: flex;
+    flex-grow: 2;
+    color: #5E5E5E82;
+}
+.searchbox{
+    display: flex;
+    flex-grow: 6;
+}
+.emp-list{
+    display: flex;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 70px;
+    
+}
+.emp-list ul{
+    color: white;
+    width: 360px;
+    height: 456px;
+    list-style-type: none;
+    padding: 16px;
+    width: 180px;
+
+
+}
+.emp-list li{
+    margin: 0 0 0.5rem 0;
+    padding-right: 32px;
+    width: 280px;
+    height: 150px;
+    background-color: #131917;
+    border: 1px solid black;
+    padding: 1rem;
+    text-align: left;
+    border-radius: 16px;
+}
+
+
+
+.bottom-nav{
+    display: flex;
+    flex-direction: row;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    z-index: 4;
+    height: 60px;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.home-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-grow: 1;
+    height: 60px;
+    background: #38383880 0% 0% no-repeat padding-box;
+    mix-blend-mode: normal;
+    border: 1px solid #000000;
+    opacity: 1;
+    padding: 0;
+
+}
+.user{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-grow: 1;
+    height: 60px;
+    background: #38383880 0% 0% no-repeat padding-box;
+    mix-blend-mode: normal;
+    border: 1px solid #000000;
+    opacity: 1;
+    padding: 0;
+}
+
